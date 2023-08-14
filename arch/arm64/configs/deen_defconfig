@@ -3910,13 +3910,13 @@ CONFIG_UIO=y
 # CONFIG_UIO_MF624 is not set
 CONFIG_UIO_MSM_SHAREDMEM=y
 # CONFIG_VFIO is not set
-# CONFIG_VIRT_DRIVERS is not set
+# CONFIG_VIRT_DRIVERS=y
 
 #
 # Virtio drivers
 #
-# CONFIG_VIRTIO_PCI is not set
-# CONFIG_VIRTIO_MMIO is not set
+# CONFIG_VIRTIO_PCI=y
+# CONFIG_VIRTIO_MMIO=y
 
 #
 # Microsoft Hyper-V guest support
@@ -4745,7 +4745,7 @@ CONFIG_NLS_ISO8859_1=y
 # CONFIG_NLS_UTF8 is not set
 # CONFIG_DLM is not set
 # CONFIG_FILE_TABLE_DEBUG is not set
-# CONFIG_VIRTUALIZATION is not set
+# CONFIG_VIRTUALIZATION=y
 
 #
 # Kernel hacking
